@@ -1,13 +1,13 @@
-pipeline {
+ï»¿pipeline {
   agent any 
   stages {
-    stage(¡®Build¡¯) {
+    stage(â€˜Buildâ€™) {
       steps {
-        sh ¡®echo ¡°Hello World¡±¡¯
-        sh ¡®¡°
-                  echo ¡°Multiline shell steps works too¡±
+        sh â€˜echo â€œHello Worldâ€â€™
+        sh â€˜â€œ
+                  echo â€œMultiline shell steps works tooâ€
                   ls -lah
-               ¡°¡®
+               â€œâ€˜
       }
     }
   }
