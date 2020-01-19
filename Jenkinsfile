@@ -6,5 +6,6 @@ pipeline {
         sh 'tidy -q -e *.html'
       }
     }
+
   }
 }
